@@ -1,0 +1,19 @@
+Package: regtable
+Type: Package
+Title: Automatically generating regression table from lm objects
+Version: 0.1.0
+Author: 
+    person(given = "Hui (or Max)",
+           family = "Bai",
+           role = c("aut", "cre"),
+           email = "baixx062@umn.edu",
+           comment = c(ORCID = "https://orcid.org/0000-0003-2671-5955"))
+Maintainer: The package maintainer <baixx062@umn.edu>
+Description: This package automatically generates regression table from lm objects in R in a format that is consistent with the latest reporting practice for psychological journals. It includes p value at 3 decimal points, 95% confidence interval, effect size in partial eta square, and standardized estimates).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: lsr, lm.beta
+RoxygenNote: 7.1.1
+NeedsCompilation: no
+Packaged: 2021-05-22 21:39:38 UTC; HB
